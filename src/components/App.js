@@ -24,9 +24,10 @@ export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
-            <Nav/>
-            <VideoPlayer/>
+          <div>
+              <VideoPlayer/>
+
+              <Nav/>
             <Route exact path='/' component={Home}/>
             <Route path='/music' component={ProductPage} />
             <Route path='/ruby' component={RubyProjects} />
