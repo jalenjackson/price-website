@@ -19,7 +19,22 @@
 <script>
 
       $(".ruby-link").click(function(){
-         $(".account-img").attr("src", "https://freivincampbell.github.io/assets/img/ruby.png")
+         $(".account-img").attr("src", "https://freivincampbell.github.io/assets/img/ruby.png");
+      });
+
+      $(".home-link").click(()=>{
+          $(".account-img").attr("src", "https://media.giphy.com/media/AEcZfXZZNCcQU/200.gif");
+      });
+
+
+      $(".tools").click(function(){
+          $(".account-img").attr("src", "https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif");
+
+      });
+
+      $(".about-me-link").click(function() {
+          $(".account-img").attr("src", "http://b.vimeocdn.com/ts/802/724/80272486_200.jpg");
+
       });
 
       $(".react-link").click(function(){
@@ -38,7 +53,7 @@
 
       $(".fav-music").on("click",function(){
 
-          $(".account-img").attr("src", "http://hiphopgoldenage.com/wp-content/uploads/2016/02/jc.png")
+          $(".account-img").attr("src", "https://upload.wikimedia.org/wikipedia/commons/1/11/Imagine_Dragons_2013.jpg")
 
           if($(".videoPlayer").attr("src") != "https://www.youtube.com/embed/7wtfhZwyrcc" ) {
               $(".videoPlayer").attr("src", "https://www.youtube.com/embed/7wtfhZwyrcc");

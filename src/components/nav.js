@@ -21,13 +21,13 @@ export default class Nav extends Component {
                     <div className="design-line"></div>
                     <div className="left-side-nav-items">
 
-                        <NavLink exact activeClassName='active'  to="/">Home</NavLink>
+                        <NavLink exact activeClassName='active' className="home-link"  to="/">Home</NavLink>
                         <a className="hover-link">Projects</a>
-                        <NavLink activeClassName="active"  to="/about">About Me</NavLink>
+                        <NavLink activeClassName="active" className="about-me-link"  to="/about">About Me</NavLink>
                         <NavLink activeClassName="active" className="fav-music"  to="/music">Favorite Music</NavLink>
 
 
-                        <NavLink activeClassName="active" className="fav-music"  to="/tools">Tools I Use</NavLink>
+                        <NavLink activeClassName="active" className="tools"  to="/tools">Tools I Use</NavLink>
 
                     </div>
 

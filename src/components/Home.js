@@ -44,11 +44,12 @@ export default class Home extends Component {
                     </div>
 
                     <div className="main-hot-container">
-                        <h1 className="parallax-scroll">Best Coding Song</h1>
 
-                        <p style={{color:'black'}} className="parallax-scrollp">Although i enjoy JCole a lot, you have to change it up sometimes. Beethoven is my second favorite when listening to music and coding</p>
-                        <button className="btn draw-border parallax-scrollp">Listen To It!</button>
-                        <div style={{marginTop:"80px"}} className="underline2 parallax-scrollp"></div>
+                        <h1 className="parallax-scroll go-away">Best Coding Song</h1>
+
+                        <p style={{color:'black'}} className="parallax-scrollp go-away">Although i enjoy JCole a lot, you have to change it up sometimes. Beethoven is my second favorite when listening to music and coding</p>
+                        <button className="btn draw-border parallax-scrollp go-away">Listen To It!</button>
+                        <div style={{marginTop:"80px"}} className="underline2 parallax-scrollp go-away"></div>
 
                         <div className="main-hot-side-img side-img">
                             <img src = "http://static1.squarespace.com/static/55951ce0e4b0c1a90569cfed/t/55983ce7e4b0b0193b97df1b/1436040427273/"/>
@@ -77,13 +78,13 @@ export default class Home extends Component {
 
                             </div>
                             <div className="whats-new-layout">
-                                <img src = {require("../assets/images/youtube.png")}/>
+                                <img src=""/>
                                     <h1>React + Youtube</h1>
                                     <p>Combining the youtube search api with react for faster searching.</p>
 
                             </div>
                             <div className="whats-new-layout">
-                                <img src ={require("../assets/images/tellafiction.png")}/>
+                                <img src ={require("../assets/images/vartgo.png")}/>
                                     <h1>TellAFiction</h1>
                                     <p>Engaging Story Telling</p>
 
@@ -92,7 +93,7 @@ export default class Home extends Component {
                         </div>
 
                         <div className="whats-new-side-container">
-                            <img src={require("../assets/images/vrartgo.png")}/>
+                            <img src=""/>
                                 <h1>VRARTGO</h1>
                                 <p className="change-white">I built this website a while ago for an aspiring animation company. It was a very fun experience writing the code, because they gave me creative freedom.</p>
 
