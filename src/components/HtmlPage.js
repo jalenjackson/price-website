@@ -19,7 +19,7 @@ export default class ReactPage extends React.Component {
                         <div className="inside-ruby-projects vartgo"></div>
                         <div className="project-overlay">
                             <h1>VRARTGO</h1>
-                            <p>A wesbite i built for an aspiring animation company</p>
+                            <p className="change-white">A wesbite i built for an aspiring animation company</p>
                         </div>
                     </div>
 

@@ -94,7 +94,7 @@ export default class Home extends Component {
                         <div className="whats-new-side-container">
                             <img src={require("../assets/images/vrartgo.png")}/>
                                 <h1>VRARTGO</h1>
-                                <p>I built this website a while ago for an aspiring animation company. It was a very fun experience writing the code, because they gave me creative freedom.</p>
+                                <p className="change-white">I built this website a while ago for an aspiring animation company. It was a very fun experience writing the code, because they gave me creative freedom.</p>
 
                         </div>
                     </div>
@@ -106,7 +106,7 @@ export default class Home extends Component {
                 <div className="product-of-the-week">
 
                     <h1>GameCam</h1>
-                    <p>An augmented reality app were if you point your camera to a game cover it plays the trailer of the game. If you tap once you go to the ratings of the game. If you double tap you go to were you can buy the game</p>
+                    <p className="change-white">An augmented reality app were if you point your camera to a game cover it plays the trailer of the game. If you tap once you go to the ratings of the game. If you double tap you go to were you can buy the game</p>
                     <div className="week-img-overlay">
                         <h1>GameCam</h1>
                     </div>

@@ -19,14 +19,14 @@ export default class ReactPage extends React.Component {
                         <div className="inside-ruby-projects youtube"></div>
                         <div className="project-overlay">
                             <h1>React + Youtube</h1>
-                            <p>Combining the youtube search api with react for faster searching.</p>
+                            <p className="change-white">Combining the youtube search api with react for faster searching.</p>
                         </div>
                     </div>
                     <div className="ruby-projects react-projects">
                         <div className="inside-ruby-projects personal-website"></div>
                         <div className="project-overlay">
                             <h1>This Website</h1>
-                            <p>My Personal Website is built in React</p>
+                            <p className="change-white">My Personal Website is built in React</p>
                         </div>
                     </div>
 

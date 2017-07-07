@@ -19,7 +19,7 @@ export default class ReactPage extends React.Component {
                         <div className="inside-ruby-projects augmented-reality"></div>
                         <div className="project-overlay">
                             <h1>GameCam Augmented Reality</h1>
-                            <p>An augmented reality app were if you point your camera to a game cover it plays the trailer of the game. If you tap once you go to the ratings of the game. If you double tap you go to were you can buy the game</p>
+                            <p className="change-white">An augmented reality app were if you point your camera to a game cover it plays the trailer of the game. If you tap once you go to the ratings of the game. If you double tap you go to were you can buy the game</p>
                         </div>
                     </div>
 

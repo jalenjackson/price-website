@@ -21,14 +21,14 @@ export default class CProjects extends React.Component {
                             <div className="inside-ruby-projects decypher"></div>
                             <div className="project-overlay c-project-overlay">
                                 <h1>Decoder</h1>
-                                <p>Just give the cyphered text and the key, and watch the magic</p>
+                                <p className="change-white">Just give the cyphered text and the key, and watch the magic</p>
                             </div>
                         </div>
                         <div className="ruby-projects c-projects">
                             <div className="inside-ruby-projects fake-credit-cards"></div>
                             <div className="project-overlay c-project-overlay">
                                 <h1>Credit Card Verifier</h1>
-                                <p>Detects fake Visa, American Express, and Master Card, credit cards.</p>
+                                <p className="change-white">Detects fake Visa, American Express, and Master Card, credit cards.</p>
                             </div>
                         </div>
 
@@ -36,7 +36,7 @@ export default class CProjects extends React.Component {
                             <div className="inside-ruby-projects exact-change"></div>
                             <div className="project-overlay c-project-overlay">
                                 <h1>Exact Change</h1>
-                                <p>Get's the exact change of a transaction</p>
+                                <p className="change-white">Get's the exact change of a transaction</p>
                             </div>
                         </div>
 

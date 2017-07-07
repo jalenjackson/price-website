@@ -142,7 +142,7 @@ a {
 }
 
 .project-overlay h1 , p {
-    color:white;
+    color:white !important;
 }
 
 .project-overlay h1 {
