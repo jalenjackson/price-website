@@ -23,34 +23,27 @@ export default class Nav extends Component {
 
                         <NavLink exact activeClassName='active' className="home-link"  to="/">Home</NavLink>
                         <a className="hover-link">Projects</a>
-                        <NavLink activeClassName="active" className="about-me-link"  to="/about">About Me</NavLink>
-                        <NavLink activeClassName="active" className="fav-music"  to="/music">Favorite Music</NavLink>
+                        <NavLink  activeClassName="active" className="about-me-link change"  to="/about">About Me</NavLink>
+                        <NavLink  activeClassName="active" className="fav-music change"  to="/music">Favorite Music</NavLink>
 
 
-                        <NavLink activeClassName="active" className="tools"  to="/tools">Tools I Use</NavLink>
+                        <NavLink  activeClassName="active" className="tools change"  to="/tools">Tools I Use</NavLink>
 
                     </div>
 
-                    <div className="title-container">
-                        Jalen Jackson
-                    </div>
-
-                    <div className="account-nav-cover-art">
-                        <img className="account-img" src="https://media.giphy.com/media/AEcZfXZZNCcQU/200.gif" />
-                    </div>
                 </div>
 
                 <div className="lower-overlay"></div>
 
                 <div className="animated-dropdown">
                     <div className="pulldown-items">
-                        <h1 className="animated-dropdown-h1  animated ">PROJECTS</h1>
+                        <h1 style={{color:"black !important"}} className="animated-dropdown-h1  animated ">PROJECTS</h1>
                         <ul className="listOf-items-dropdown animated ">
-                            <li className="project-li"><NavLink activeClassName="active" className="ruby-link nav-link" to="/ruby">Ruby On Rails</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="react-link nav-link" to="/react">React Js</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="c-link nav-link" to="/c">C++</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="html-link nav-link" to="/htmlcss">HTML/CSS</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="csharp-link nav-link" to="/csharp">C# Augmented Reality</NavLink></li>
+                            <li className="project-li"><NavLink activeClassName="active" className="ruby-link nav-link change" to="/ruby">Ruby On Rails</NavLink></li>
+                            <li className="project-li"><NavLink activeClassName="active" className="react-link nav-link change" to="/react">React Js</NavLink></li>
+                            <li className="project-li"><NavLink activeClassName="active" className="c-link nav-link change" to="/c">C++</NavLink></li>
+                            <li className="project-li"><NavLink activeClassName="active" className="html-link nav-link change" to="/htmlcss">HTML/CSS</NavLink></li>
+                            <li className="project-li"><NavLink activeClassName="active" className="csharp-link nav-link change" to="/csharp">C# Augmented Reality</NavLink></li>
                         </ul>
                         <div className="animated-dropdown-image-container">
 

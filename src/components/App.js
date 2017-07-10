@@ -27,7 +27,7 @@ export default class App extends Component {
           <div>
               <VideoPlayer/>
 
-              <Nav/>
+                <Nav/>
             <Route exact path='/' component={Home}/>
             <Route path='/music' component={ProductPage} />
             <Route path='/ruby' component={RubyProjects} />

@@ -18,49 +18,8 @@
 
 <script>
 
-      $(".ruby-link").click(function(){
-         $(".account-img").attr("src", "https://freivincampbell.github.io/assets/img/ruby.png");
-      });
-
-      $(".home-link").click(()=>{
-          $(".account-img").attr("src", "https://media.giphy.com/media/AEcZfXZZNCcQU/200.gif");
-      });
 
 
-      $(".tools").click(function(){
-          $(".account-img").attr("src", "https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif");
-
-      });
-
-      $(".about-me-link").click(function() {
-          $(".account-img").attr("src", "http://b.vimeocdn.com/ts/802/724/80272486_200.jpg");
-
-      });
-
-      $(".react-link").click(function(){
-          $(".account-img").attr("src", "https://facebook.github.io/react/img/logo.svg")
-      });
-
-      $(".c-link").click(function(){
-          $(".account-img").attr("src", "https://www.edx.org/sites/default/files/styles/course_video_banner/public/course/image/featured-card/dev210x-about_page_image-318x210.jpg?itok=sxqUEGWL")
-      });
-      $(".html-link").click(function(){
-          $(".account-img").attr("src", "https://www.sololearn.com/Uploads/html-css.jpg")
-      });
-      $(".csharp-link").click(function(){
-          $(".account-img").attr("src", "https://career.guru99.com/wp-content/uploads/2012/04/C-Sharp-Interview-Questions.jpg")
-      });
-
-      $(".fav-music").on("click",function(){
-
-          $(".account-img").attr("src", "https://upload.wikimedia.org/wikipedia/commons/1/11/Imagine_Dragons_2013.jpg")
-
-          if($(".videoPlayer").attr("src") != "https://www.youtube.com/embed/7wtfhZwyrcc" ) {
-              $(".videoPlayer").attr("src", "https://www.youtube.com/embed/7wtfhZwyrcc");
-          }
-          $(".video-player-container").addClass("move-back");
-
-      });
 
 
       $("a").click(function(){
@@ -97,12 +56,16 @@
 
         if(scroll >= 70){
             $(".main-navbar").css({
-                background:"white",
+                background:"rgb(50,50,50)",
                 height:"80px",
-                borderBottom: "7px solid black",
-                zIndex: "6"
+                borderBottom: "3px solid white",
             });
 
+
+
+            $(".main-navbar a").css({
+                color:"white"
+            });
 
 
             $(".left-side-nav-items").css({
@@ -113,6 +76,9 @@
             });
             $(".lower-overlay").css({
                 top: "50px"
+            });
+            $("#banner").css({
+                pointerEvents:"none"
             });
 
             $(".profile-pic").addClass("move-down");
@@ -131,9 +97,13 @@
                 background:"none",
                 height:"150px",
                 borderBottom: "none",
-                zIndex: "0"
 
             });
+
+            $("#banner").css({
+                pointerEvents:"none"
+            });
+
 
 
 
@@ -295,7 +265,7 @@
             $(".underline2").removeClass("add-width")
         }
         $(".parallax-scroll").css({
-            "transform":'translate(0px, ' + wScroll/-10 + '%)'
+            "transform":'translate(0px, ' + wScroll/5 + '%)'
         });
 
         $(".parallax-scroll1").css({
@@ -313,9 +283,7 @@
         $(".parallax-scrollb").css({
             "transform":'translate(0px, ' + wScroll/-15 + '%)'
         });
-        $(".background-blur").css({
-            "transform":'translate(0px, ' + wScroll/-5 + '%) scale(2)'
-        });
+
 
 
     });
