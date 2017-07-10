@@ -11,10 +11,11 @@ export default class Home extends Component {
                 <video className="video-bg" loop={true} autoPlay={true}>
                     <source src={require("../assets/images/loop.mp4")} type="video/mp4"/>
                 </video>
+
             <h1 className="jj">Jalen Jackson</h1>
         <p className="desc" style={{color:"white !important"}}>Front End Developer</p>
-        </section>
 
+            </section>
 
            </div>
         )
