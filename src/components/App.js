@@ -1,47 +1,47 @@
 import React, { Component } from 'react';
 
-import Nav from './nav'
 import Home from './Home'
+import Nav from './Nav'
+import SideNav from './SideNav'
+import Chalkboard from './projects/Chalkboard'
+import Cellltronics from './projects/Cellltronics'
+import Tellafiction from './projects/Tellafiction'
+import Critic from './projects/Critic'
+import PtHealthcare from './projects/PtHealthcare'
+import Vrartgo from './projects/Vrartgo'
+import YoutubeApi from './projects/YoutubeApi'
+import HairObsessionz from './projects/HairObsessionz'
+import About from './About'
+import Projects from './Projects'
+import Intro from './Intro'
+
+
+
+
 import {Route, Router, BrowserRouter, withRouter } from 'react-router-dom'
-import ProductPage from './ProductPage'
-import VideoPlayer from './VideoPlayer'
-import RubyProjects from './RubyProjects'
-import ReactPage from './ReactPage'
-import CProjects from './CProjects'
-import HtmlPage from './HtmlPage'
-import CSharpPage from './CSharpPage'
-import AboutMe from './AboutMe'
-import ToolsIUse from './ToolsIUse'
-
-import ReallySmoothScroll from 'really-smooth-scroll'
-
-
-
-//ReallySmoothScroll.shim();
-
 
 export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
           <div>
-              <VideoPlayer/>
+            <Intro/>
+            <Nav/>
+            <SideNav/>
+            <Route exact path='/' component={Home} />
+            <Route path='/chalkboard' component={Chalkboard} />
+            <Route path='/pthealthcare' component={PtHealthcare} />
+            <Route path='/vrartgo' component={Vrartgo} />
+            <Route path='/youtubeapi' component={YoutubeApi}/>
+            <Route path='/hairobsessionz' component={HairObsessionz}/>
+            <Route path='/cellltronics' component={Cellltronics}/>
+            <Route path='/tellafiction' component={Tellafiction}/>
+            <Route path='/critic' component={Critic}/>
+            <Route path='/about' component={About}/>
+              <Route path='/projects' component={Projects}/>
 
-                <Nav/>
-            <Route exact path='/' component={Home}/>
-            <Route path='/music' component={ProductPage} />
-            <Route path='/ruby' component={RubyProjects} />
-            <Route path='/react' component={ReactPage} />
-            <Route path='/c' component={CProjects} />
-            <Route path='/htmlcss' component={HtmlPage} />
-            <Route path='/csharp' component={CSharpPage} />
-            <Route path='/about' component={AboutMe} />
-            <Route path='/tools' component={ToolsIUse} />
-
-
-        </div>
+          </div>
       </BrowserRouter>
     );
   }
 }
-

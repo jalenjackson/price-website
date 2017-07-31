@@ -1,60 +1,20 @@
-import React, {Component} from 'react'
-import '../assets/stylesheets/nav.css';
-import {NavLink} from 'react-router-dom'
-import FontAwesome from 'react-fontawesome'
+import React from 'react'
+import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
+import { NavLink } from 'react-router-dom'
 
 
-var divStyle = {
-    color: 'black',
-    fontSize: "40px",
-};
-
-export default class Nav extends Component {
+export default class Nav extends React.Component {
     render(){
         return (
             <div>
-
-                <div className="main-navbar">
-
-
-
-                    <div className="design-line"></div>
-                    <div className="left-side-nav-items">
-
-                        <NavLink exact activeClassName='active' className="home-link"  to="/">Home</NavLink>
-                        <a className="hover-link">Projects</a>
-                        <NavLink  activeClassName="active" className="about-me-link change"  to="/about">About Me</NavLink>
-                        <NavLink  activeClassName="active" className="fav-music change"  to="/music">Favorite Music</NavLink>
-
-
-                        <NavLink  activeClassName="active" className="tools change"  to="/tools">Tools I Use</NavLink>
-
-                    </div>
+                <div className="nav-container">
+                    <NavLink to="/"> <img className="logo-img" src="http://logok.org/wp-content/uploads/2017/01/Juventus-logo-2017-350x302.png"/></NavLink>
+                  <div className="inner-nav">
+                  <NavLink activeClassName="about-link" to="/about">About Me</NavLink>
+                  </div>
+                    <a href="mailto:jalenjack201@hotmail.com?Subject=Web%20Inquiry" target="_top"><img className="email-logo" src="https://cdn0.iconfinder.com/data/icons/basic-thin-ios/512/email-512.png"/></a>
 
                 </div>
-
-                <div className="lower-overlay"></div>
-
-                <div className="animated-dropdown">
-                    <div className="pulldown-items">
-                        <h1 style={{color:"black !important"}} className="animated-dropdown-h1  animated ">PROJECTS</h1>
-                        <ul className="listOf-items-dropdown animated ">
-                            <li className="project-li"><NavLink activeClassName="active" className="ruby-link nav-link change" to="/ruby">Ruby On Rails</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="react-link nav-link change" to="/react">React Js</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="c-link nav-link change" to="/c">C++</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="html-link nav-link change" to="/htmlcss">HTML/CSS</NavLink></li>
-                            <li className="project-li"><NavLink activeClassName="active" className="csharp-link nav-link change" to="/csharp">C# Augmented Reality</NavLink></li>
-                        </ul>
-                        <div className="animated-dropdown-image-container">
-
-
-                            <img className="dropdown-side-img animated" src = "http://i.imgur.com/lRq6T7n.gif" />
-
-                                <img className="dropdown-bg-img" src = "https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif" />
-                        </div>
-                    </div>
-                </div>
-
             </div>
         )
     }

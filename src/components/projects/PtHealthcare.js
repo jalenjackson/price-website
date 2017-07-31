@@ -6,7 +6,7 @@ export default class Chalkboard extends React.Component {
         return (
             <div>
 
-                <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)) , url(https://s-media-cache-ak0.pinimg.com/originals/cc/91/41/cc9141e26719a2ec259c477984b33eb8.jpg)", overflow: "hidden"}} className="home-container">
+                <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)) , url(http://www.leafscience.org/wp-content/uploads/2017/03/ElderlyHealthCare-1140x810.jpg)", overflow: "hidden"}} className="home-container">
                     <ReactCSSTransitionGroup
                         component="div"
                         transitionName="route"
@@ -26,8 +26,10 @@ export default class Chalkboard extends React.Component {
                         transitionLeaveTimeout={4000}
                         transitionAppear={true}
                     >
-
+                        <h1><span>Pauline & Thomas</span></h1>
+                        <h1 className="next"><span>Health Care</span></h1>
                     </ReactCSSTransitionGroup>
+                    <a target="blank" href="https://cellltronics.herokuapp.com/"><h5>Visit<img className="arrow" src="https://image.flaticon.com/icons/png/512/60/60934.png"/></h5></a>
 
                 </div>
             </div>
