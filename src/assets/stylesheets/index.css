@@ -205,6 +205,14 @@ a, u {
   border-bottom: none !important;
 }
 
+
+/* Each state */
+
+.about-link:visited { text-decoration: none; color:black; }
+.about-link:hover { text-decoration: none; color:black; }
+.about-link:focus { text-decoration: none; color:black; }
+.about-link:hover, a:active { text-decoration: none; color:black }
+
 .intro-container video {
   position: fixed;
   top: 50%;
