@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Home from './Home'
-import Nav from './Nav'
+import MainNav from './MainNav'
 import SideNav from './SideNav'
 import Chalkboard from './projects/Chalkboard'
 import Cellltronics from './projects/Cellltronics'
@@ -25,7 +25,7 @@ export default class App extends Component {
     return (
       <BrowserRouter>
           <div>
-            <Nav/>
+            <MainNav/>
             <SideNav/>
             <Route exact path='/' component={Home} />
             <Route path='/chalkboard' component={Chalkboard} />

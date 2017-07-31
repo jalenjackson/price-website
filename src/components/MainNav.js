@@ -3,7 +3,7 @@ import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 import { NavLink } from 'react-router-dom'
 
 
-export default class Nav extends React.Component {
+export default class MainNav extends React.Component {
     render(){
         return (
             <div>
