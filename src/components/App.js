@@ -13,7 +13,6 @@ import YoutubeApi from './projects/YoutubeApi'
 import HairObsessionz from './projects/HairObsessionz'
 import About from './About'
 import Projects from './Projects'
-import Intro from './Intro'
 
 
 
@@ -25,7 +24,6 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Intro/>
 
           <div>
 
