@@ -2,11 +2,22 @@ import React from 'react'
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 
 export default class Chalkboard extends React.Component {
+
     render(){
+
         return (
+
             <div>
 
-                <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)) , url(https://s-media-cache-ak0.pinimg.com/originals/cc/91/41/cc9141e26719a2ec259c477984b33eb8.jpg)", overflow: "hidden"}} className="home-container">
+                <div style={{zIndex: "999999999999999999999999999999999999"}} className="intro-container">
+
+                    <video style={{zIndex: "999999999999999999999999999999999999"}} autoPlay={true}  width="320" height="240" controls={false} muted={true}>
+                        <source src={require("../assets/video.webm")} type="video/webm"/>
+                    </video>
+
+                </div>
+                <div className="real-home-container">
+                <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)) , url(http://s1.picswalls.com/wallpapers/2015/10/11/hd-sci-fi-wallpapers_010015608_283.jpg) center center no-repeat", overflow: "hidden", backgroundSize: "cover"}} className="home-container">
 
 
                     <ReactCSSTransitionGroup
@@ -29,10 +40,17 @@ export default class Chalkboard extends React.Component {
                         transitionAppear={true}
                     >
 
+                        <h1><span>Jalen Jackson</span></h1>
+                        <h1><span>Front End Developer</span></h1>
+
                     </ReactCSSTransitionGroup>
 
                 </div>
             </div>
+            </div>
         )
     }
 }
+
+
+

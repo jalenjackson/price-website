@@ -207,7 +207,9 @@ a, u {
 
 
 /* Each state */
-
+.about-link {
+  color:black !important;
+}
 .about-link:visited { text-decoration: none; color:black; }
 .about-link:hover { text-decoration: none; color:black; }
 .about-link:focus { text-decoration: none; color:black; }
@@ -466,6 +468,10 @@ a, u {
     right: 0 !important;
     margin: 0 !important;
     background: rgba(0,0,0,0.5)
+  }
+
+  .intro-container {
+    display: none !important;
   }
 
   .about-me {
