@@ -421,4 +421,38 @@ a, u {
   letter-spacing: 1px;
 }
 
+@media (max-width: 480px) {
+  body {
+  }
+
+  .home-container {
+    margin: 0 !important;
+    width:100%;
+
+  }
+
+  .home-container h1 span {
+    font-size: 20px !important;
+    margin: 0 !important;
+    margin-left:30px !important;
+  }
+  .home-container h5 {
+    margin: 0 !important;
+    margin-left:30px !important;
+
+  }
+  .side-nav-container {
+    right: 0 !important;
+    margin: 0 !important;
+    background: rgba(0,0,0,0.5)
+  }
+
+  .about-me {
+    margin-left:20px !important;
+  }
+
+  .email-logo {
+    margin-right: 20px !important;
+  }
+}
 
