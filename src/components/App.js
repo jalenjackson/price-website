@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Home from './Home'
-import Nav from './Nav'
 import SideNav from './SideNav'
 import Chalkboard from './projects/Chalkboard'
 import Cellltronics from './projects/Cellltronics'
