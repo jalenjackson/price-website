@@ -25,7 +25,6 @@ export default class App extends Component {
       <BrowserRouter>
           <div>
             <Intro/>
-            <Nav/>
             <SideNav/>
             <Route exact path='/' component={Home} />
             <Route path='/chalkboard' component={Chalkboard} />
