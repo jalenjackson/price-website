@@ -24,8 +24,10 @@ export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
+        <div>
+          <Intro/>
+
           <div>
-            <Intro/>
 
             <MainNav/>
             <SideNav/>
@@ -42,6 +44,7 @@ export default class App extends Component {
             <Route path='/about' component={About}/>
               <Route path='/projects' component={Projects}/>
           </div>
+        </div>
       </BrowserRouter>
     );
   }
