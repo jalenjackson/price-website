@@ -25,8 +25,11 @@ export default class App extends Component {
     return (
       <BrowserRouter>
           <div>
+            <Intro/>
+
             <MainNav/>
             <SideNav/>
+
             <Route exact path='/' component={Home} />
             <Route path='/chalkboard' component={Chalkboard} />
             <Route path='/pthealthcare' component={PtHealthcare} />
@@ -38,7 +41,6 @@ export default class App extends Component {
             <Route path='/critic' component={Critic}/>
             <Route path='/about' component={About}/>
               <Route path='/projects' component={Projects}/>
-            <Intro/>
           </div>
       </BrowserRouter>
     );
