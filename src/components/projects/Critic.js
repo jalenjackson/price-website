@@ -29,7 +29,7 @@ export default class Chalkboard extends React.Component {
                         <h1><span>Critic</span></h1>
                         <h1 className="next"><span>Under Development</span></h1>
                     </ReactCSSTransitionGroup>
-                    <a target="blank" href="https://cellltronics.herokuapp.com/"><h5>Visit<img className="arrow" src="https://image.flaticon.com/icons/png/512/60/60934.png"/></h5></a>
+                    <a target="blank" href="https://critic-development.herokuapp.com/"><h5>Visit<img className="arrow" src="https://image.flaticon.com/icons/png/512/60/60934.png"/></h5></a>
 
                 </div>
             </div>

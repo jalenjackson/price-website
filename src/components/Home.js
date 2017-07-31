@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 
+var show = false;
 export default class Chalkboard extends React.Component {
 
     render(){
@@ -9,13 +10,8 @@ export default class Chalkboard extends React.Component {
 
             <div>
 
-                <div style={{zIndex: "999999999999999999999999999999999999"}} className="intro-container">
 
-                    <video style={{zIndex: "999999999999999999999999999999999999"}} autoPlay={true}  width="320" height="240" controls={false} muted={true}>
-                        <source src={require("../assets/video.webm")} type="video/webm"/>
-                    </video>
 
-                </div>
                 <div className="real-home-container">
                 <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)) , url(http://s1.picswalls.com/wallpapers/2015/10/11/hd-sci-fi-wallpapers_010015608_283.jpg) center center no-repeat", overflow: "hidden", backgroundSize: "cover"}} className="home-container">
 
