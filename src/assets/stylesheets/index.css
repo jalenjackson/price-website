@@ -222,6 +222,10 @@ a, u {
   pointer-events: none !important;
 }
 
+.intro-container{
+  z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
 @keyframes bye {
   0%{
     opacity:1;
