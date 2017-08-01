@@ -105,6 +105,7 @@ html, body {
   margin-left: 40px;
   font-family: Questrial, sans-serif;
   letter-spacing:2px;
+  transform:translateY(10px);
   cursor: pointer;
 }
 
@@ -421,6 +422,32 @@ div#columns figure img {
 
 }
 
+.change-enter, .change-appear {
+  opacity: 1;
+  animation: opac 2s cubic-bezier(0.165,0.84,0.44,1) forwards ;
+
+}
+
+.change-leave {
+  opacity:1;
+  animation: opac 2s cubic-bezier(0.165,0.84,0.44,1);
+
+
+}
+
+@keyframes opac {
+  0%{
+    opacity:0;
+    transform: translate3D(0,30px,0);
+
+  }
+  100%{
+    opacity:1;
+    transform: translate3D(0,0,0);
+
+  }
+}
+
 @keyframes slideLeft {
   0%{
     opacity:0;
@@ -435,4 +462,14 @@ div#columns figure img {
   }
 }
 
+
+a { color:white; text-decoration: none;
+} /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white }
 

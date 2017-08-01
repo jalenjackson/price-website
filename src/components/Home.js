@@ -10,19 +10,7 @@ export default class Home extends React.Component {
             <div>
                 <div className="real-home-container">
 
-                                <div className="main-nav">
-                                    <i style={{fontSize: "30px"}} className="fa fa-bars" aria-hidden="true"/>
 
-                                    <img src="http://enroutedigitallab.com/html/beats/images/home/logo.png"/>
-                                    <ul>
-                                        <li>Home</li>
-                                        <li>Music</li>
-                                        <li>Videos</li>
-                                        <li>Photos</li>
-                                        <li>Gigs</li>
-                                        <li>Contact</li>
-                                    </ul>
-                                </div>
 
 
                                 <div style={{height: "100%"}} className="header-container change1">
