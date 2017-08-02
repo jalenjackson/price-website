@@ -1,0 +1,11 @@
+.contact-container {
+    margin-top:100px;
+}
+
+.contact-container h1 {
+    color:white;
+    font-size:25px;
+    letter-spacing:2px;
+    font-family:Questrial, sans-serif;
+    text-align: center;
+}
