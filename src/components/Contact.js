@@ -19,7 +19,8 @@ export default class Contact extends React.Component {
 
                 <h1>404-858-1453</h1>
 
-                <button className="btn draw-border"><a href="mailto:mrprice.mp@gmail.com?Subject=Booking%Inquiry" target="_top">Contact For Booking</a></button>
+                    <a href="mailto:mrprice.mp@gmail.com?Subject=Booking%20Inquiry" target="_top"><button className="btn draw-border">Contact For Booking</button></a>
+
                 </ReactCSSTransitionGroup>
             </div>
 
