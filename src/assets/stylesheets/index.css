@@ -208,6 +208,10 @@ html, body {
   display: inline-block;
 }
 
+.overlay {
+  z-index: 9999999999999999999999999999999;
+}
+
 .three-column-layout:hover .overlay {
   opacity: 0.9;
 }
@@ -405,6 +409,8 @@ div#columns figure img {
 
 
   }
+
+
 
   .dropdown {
     display: block;

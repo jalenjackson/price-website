@@ -9,7 +9,7 @@ export default class Mainnav extends React.Component {
         return (
 
             <div>
-                <div className="dropdown">
+                <div style={{zIndex: 9999999999999999999999999999999999999999999999999999999999999999999999}} className="dropdown">
                     <i className="fa fa-times" aria-hidden="true"></i>
                     <ul style={{marginTop: "12px"}}>
                         <li><NavLink to="/">Home</NavLink></li>
