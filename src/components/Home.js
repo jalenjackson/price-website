@@ -62,7 +62,7 @@ export default class Home extends React.Component {
                                             </div>
 
                                         </div>
-                                        <button className="check-all">View All</button>
+                                        <NavLink to="/gigs"> <button className="check-all"> View All </button></NavLink>
                                     </div>
                                 </div>
 
@@ -75,7 +75,7 @@ export default class Home extends React.Component {
                                     </div>
 
                                 </div>
-                                <button  className="check-all">All Videos</button>
+                    <NavLink to="/videos"> <button  className="check-all">All Videos</button></NavLink>
 
                                 <div className="photo-gallery">
                                     <h1>Recent <span style={{fontWeight:"900 !important", fontFamily: "Helvetica, sans-serif"}}>Pictures</span></h1>
@@ -140,7 +140,7 @@ export default class Home extends React.Component {
                                         </figure>
                                     </div>
                                 </div>
-                                    <button className="check-all">All Pictures</button>
+                    <NavLink to="/pictures"><button className="check-all">All Pictures</button></NavLink>
 
 
 
@@ -176,7 +176,7 @@ export default class Home extends React.Component {
                                                 </div>
 
                                             </div>
-                                            <button className="check-all">All Events</button>
+                                            <NavLink to="/gigs"><button className="check-all">All Events</button></NavLink>
                                         </div>
                                     </div>
 
