@@ -9,9 +9,7 @@ export default class Mainnav extends React.Component {
         return (
 
             <div>
-                <div style={{zIndex: 9}} className="responsive-dropdown">
-
-                </div>
+                
                     <div className="main-nav">
                         <i style={{fontSize: "30px"}} className="fa fa-bars" aria-hidden="true"/>
 
