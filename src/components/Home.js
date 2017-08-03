@@ -10,17 +10,12 @@ export default class Home extends React.Component {
 
             <div>
 
-
                 <div className="real-home-container">
 
 
 
 
-                    <div style={{zIndex: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999}} className="loader-container">
 
-
-
-                    </div>
                                 <div style={{height: "100%"}} className="header-container change1">
                                     <div className="change1-overlay"></div>
                                     <div className="left-text-container">
@@ -30,7 +25,11 @@ export default class Home extends React.Component {
                                     </div>
                                 </div>
 
+                    <div style={{zIndex: 999999999999999999999999}} className="loader-container">
 
+
+
+                    </div>
                                 <div className="music-section">
                                     <h1>Recent <span style={{fontWeight:"900 !important", fontFamily: "Helvetica, sans-serif"}}>Bookings</span></h1>
 
