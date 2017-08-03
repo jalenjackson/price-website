@@ -8,11 +8,7 @@ export default class Home extends React.Component {
         return (
 
             <div>
-                <div style={{zIndex: 99999999999999999999999999999999999999999999999999999999999999999999999999}} className="loader-container">
 
-
-
-                </div>
                 <div className="real-home-container">
 
 
@@ -26,6 +22,11 @@ export default class Home extends React.Component {
                                     </div>
                                 </div>
 
+                    <div style={{zIndex: 999999999999999999999999}} className="loader-container">
+
+
+
+                    </div>
                                 <div className="music-section">
                                     <h1>Recent <span style={{fontWeight:"900 !important", fontFamily: "Helvetica, sans-serif"}}>Album</span></h1>
 
