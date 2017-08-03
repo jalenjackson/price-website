@@ -8,6 +8,11 @@ export default class Home extends React.Component {
         return (
 
             <div>
+                <div style={{zIndex: 99999999999999999999999999999999999999999999999999999999999999999999999999}} className="loader-container">
+
+
+
+                </div>
                 <div className="real-home-container">
 
 
