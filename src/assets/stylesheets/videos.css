@@ -1,4 +1,5 @@
 body {
+
 }
 
 #wrapper {
@@ -28,7 +29,6 @@ body {
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
     column-break-inside: avoid;
-    padding: 15px;
     padding-bottom: 5px;
     background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
     opacity: 1;
@@ -45,12 +45,15 @@ body {
     width: 100%;
     padding-bottom: 15px;
     margin-bottom: 5px;
+    border-radius: .2em;
 }
 
 .pin p {
     font: 12px/18px Arial, sans-serif;
     color: #333;
     margin: 0;
+    padding-bottom: 20px;
+    margin-top:-10px;
 }
 @media (min-width: 420px) {
     #columns {
@@ -132,6 +135,8 @@ background: none !important;
     height: 100%;
     margin: 0 !important;
     border:none !important;
+    min-height: 300px !important;
+
 }
 
 .pin p {
@@ -139,4 +144,93 @@ background: none !important;
     font-size: 15px;
     font-family:Questrial, sans-serif;
     margin-top:20px;
+}
+
+.video-header {
+    width:100%;
+    height:300px;
+    background-size: cover;
+}
+
+.video-header h1 {
+    text-align:center;
+    font-size:25px;
+    font-weight: bold;
+    font-family: Questrial, sans-serif;
+    letter-spacing:3px;
+    margin-top:120px !important;
+    transform: translateY(100px) !important;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.l-g3:after {
+    display: table;
+    content: ' ';
+    clear: both;
+}
+.l-g3 > div:nth-child(3n+1) {
+    background: rgba(255, 0, 0, 0.25);
+}
+.l-g3 > div:nth-child(3n+2) {
+    background: rgba(0, 128, 0, 0.25);
+}
+.l-g3 > div:nth-child(3n+3) {
+    background: rgba(255, 255, 0, 0.25);
+}
+.l-g3 > div {
+    padding: 1.5em;
+    width: 32.20339%;
+    height: 300px;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+}
+
+.l-g3 > div:hover .l-g3-overlay {
+    opacity: 0.7;
+}
+.l-g3-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    background:linear-gradient(to left, purple, orange);
+}
+
+.l-g3-overlay h1 {
+    color:white;
+    text-align: center;
+    font-family:Questrial,sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.l-g3-overlay p {
+    color:white;
+    text-align: center;
+    font-family:Questrial,sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.l-g3 > div:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+}
+.l-g3 > div:nth-child(3n + 2) {
+    margin-left: 33.89831%;
+    margin-right: -100%;
+    clear: none;
+}
+.l-g3 > div:nth-child(3n + 3) {
+    margin-left: 67.79661%;
+    margin-right: -100%;
+    clear: none;
 }

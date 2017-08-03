@@ -15,16 +15,8 @@ export default class Home extends React.Component {
 
                                 <div style={{height: "100%"}} className="header-container change1">
                                     <div className="left-text-container">
-                                        <ReactCSSTransitionGroup
-                                            component="div"
-                                            transitionName="route"
-                                            transitionEnterTimeout={6000}
-                                            transitionAppearTimeout={2000}
-                                            transitionLeaveTimeout={4000}
-                                            transitionAppear={true}
-                                        >
+
                                         <h1 className="parallax responsive-h1">Music Can <br/> <span className="design-word">Change</span> <br/> Your Mind</h1>
-                                        </ReactCSSTransitionGroup>
 
                                     </div>
                                 </div>
@@ -66,8 +58,8 @@ export default class Home extends React.Component {
                                 </div>
 
                                 <div className="our-video">
-                                    <h1>Our Music <br/> <span className="video-text">Video</span></h1>
-                                    <img src="https://maxcdn.icons8.com/Share/icon/Media_Controls//play1600.png"/>
+                                    <h1 className="vvv">Our Music <br/> <span className="video-text">Video</span></h1>
+                                    <img className="video-img" src="https://maxcdn.icons8.com/Share/icon/Media_Controls//play1600.png"/>
 
                                     <div className="video-overlay">
 

@@ -17,7 +17,10 @@ export default class Videos extends React.Component {
                             transitionLeaveTimeout={4000}
                             transitionAppear={true}
                         >
-                        <h1>Videos</h1>
+                            <div style={{background:"linear-gradient(rgba(0,0,200,0.2), rgba(100,0,100,0.9)), url(http://entertainmentvoice.com/wp-content/uploads/2016/01/KidCudi2016_Feature.jpg) center center no-repeat", backgroundSize:"cover"}} className="video-header">
+                                <h1>Videos</h1>
+
+                            </div>
                         </ReactCSSTransitionGroup>
                         <div id="columns">
 

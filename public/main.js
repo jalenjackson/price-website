@@ -12,3 +12,6 @@ $(window).scroll(function(){
 
 
 
+$(".our-video").click(function(){
+    alert("y");
+});
