@@ -410,6 +410,12 @@ div#columns figure img {
 
   }
 
+  .dropdown h2 {
+    margin-left:20px;
+    margin-top:-10px;
+    transform:translateY(50px);
+  }
+
 
 
   .dropdown {

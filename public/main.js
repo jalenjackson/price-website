@@ -58,7 +58,7 @@ $(window).on("load", function(){
         alert("y");
     });
 
-    $(".main-nav").click(function(){
+    $(".fa-bars").click(function(){
         $(".dropdown").addClass("add-height");
     });
 
