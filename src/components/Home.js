@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
+import { NavLink } from 'react-router-dom'
 
 export default class Home extends React.Component {
 
@@ -14,10 +15,12 @@ export default class Home extends React.Component {
 
 
 
+
                                 <div style={{height: "100%"}} className="header-container change1">
+                                    <div className="change1-overlay"></div>
                                     <div className="left-text-container">
 
-                                        <h1 className="parallax responsive-h1">Music Can <br/> <span className="design-word">Change</span> <br/> Your Mind</h1>
+                                        <h1 className="parallax responsive-h1">Calvin <br/> <span className="design-word">Productions</span> <br/> </h1>
 
                                     </div>
                                 </div>
@@ -28,7 +31,7 @@ export default class Home extends React.Component {
 
                     </div>
                                 <div className="music-section">
-                                    <h1>Recent <span style={{fontWeight:"900 !important", fontFamily: "Helvetica, sans-serif"}}>Album</span></h1>
+                                    <h1>Recent <span style={{fontWeight:"900 !important", fontFamily: "Helvetica, sans-serif"}}>Bookings</span></h1>
 
                                     <div className="three-column-container">
                                         <div style={{background: "url(http://3m84r11gpx1j11puas2g5wfl.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Tame-Impala-Currents.jpg) center center no-repeat"}} className="three-column-layout">
@@ -59,12 +62,12 @@ export default class Home extends React.Component {
                                             </div>
 
                                         </div>
-                                        <button className="check-all">Check All</button>
+                                        <button className="check-all">View All</button>
                                     </div>
                                 </div>
 
                                 <div className="our-video">
-                                    <h1 className="vvv">Our Music <br/> <span className="video-text">Video</span></h1>
+                                    <h1 className="vvv">Check Us <br/> <span className="video-text">Out</span></h1>
                                     <img className="video-img" src="https://maxcdn.icons8.com/Share/icon/Media_Controls//play1600.png"/>
 
                                     <div className="video-overlay">
@@ -75,7 +78,7 @@ export default class Home extends React.Component {
                                 <button  className="check-all">All Videos</button>
 
                                 <div className="photo-gallery">
-                                    <p>Photo <span style={{fontWeight:"900 !important", fontFamily: "Helvetica, sans-serif"}}>Gallery</span></p>
+                                    <h1>Recent <span style={{fontWeight:"900 !important", fontFamily: "Helvetica, sans-serif"}}>Pictures</span></h1>
 
 
 
@@ -180,14 +183,14 @@ export default class Home extends React.Component {
 
 
                                     <div className="footer">
-                                        <img src="http://enroutedigitallab.com/html/beats/images/home/logo2.png"/>
+                                        <img src={require("../assets/logo.png")}/>
                                         <ul>
-                                            <li>Home</li>
-                                            <li>Music</li>
-                                            <li>Videos</li>
-                                            <li>Photos</li>
-                                            <li>Gigs</li>
-                                            <li>Contact</li>
+                                            <li><NavLink to="/">Home</NavLink></li>
+                                            <li><NavLink to="/about">About</NavLink></li>
+                                            <li><NavLink to="/videos">Videos</NavLink></li>
+                                            <li><NavLink to="/pictures">Pictures</NavLink></li>
+                                            <li><NavLink to="/gigs">Gigs</NavLink></li>
+                                            <li><NavLink to="/contact">Contact</NavLink></li>
                                         </ul>
                                     </div>
 

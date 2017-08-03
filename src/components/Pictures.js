@@ -17,11 +17,16 @@ export default class Pictures extends React.Component {
                         transitionLeaveTimeout={4000}
                         transitionAppear={true}
                     >
-                        <div style={{background:"linear-gradient(rgba(0,0,200,0.2), rgba(100,0,100,0.9)), url(http://entertainmentvoice.com/wp-content/uploads/2016/11/ErynAllenKane-Avalon_PhoebeSolomon_Feature7.jpg) center center no-repeat", backgroundSize:"cover"}} className="video-header">
+                        <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url(http://entertainmentvoice.com/wp-content/uploads/2016/11/ErynAllenKane-Avalon_PhoebeSolomon_Feature7.jpg) center center no-repeat", backgroundSize:"cover"}} className="video-header">
                             <h1>Pictures</h1>
 
                         </div>
                     </ReactCSSTransitionGroup>
+                    <div style={{zIndex: 999999999999999999999999}} className="loader-container about-loader">
+
+
+
+                    </div>
                     <div id="columns">
                         <div className="pin">
                             <img src="http://blog.symphonicdistribution.com/wp-content/uploads/2014/04/black-and-white-indie-indie-rock-music-artist-music-artists-Favim.com-194896.jpg" />
@@ -77,7 +82,7 @@ export default class Pictures extends React.Component {
                 </div>
 
                 <div className="footer">
-                    <img src="http://enroutedigitallab.com/html/beats/images/home/logo2.png"/>
+                    <img src={require("../assets/logo.png")}/>
                     <ul>
                         <li>Home</li>
                         <li>Music</li>

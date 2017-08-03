@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 import '../assets/stylesheets/videos.css'
+import { NavLink } from 'react-router-dom'
+
 
 export default class Gigs extends React.Component {
 
@@ -22,39 +24,44 @@ export default class Gigs extends React.Component {
 
                         </div>
                     </ReactCSSTransitionGroup>
+                    <div style={{zIndex: 999999999999999999999999}} className="loader-container about-loader">
+
+
+
+                    </div>
 
                     <div className="l-g3">
-                        <div style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
+                        <div className="l-g3-div" style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
                             <div className="l-g3-overlay">
                                 <h1>Title</h1>
                                 <p>Description</p>
                             </div>
                         </div>
-                        <div style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
+                        <div className="l-g3-div" style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
                             <div className="l-g3-overlay">
                                 <h1>Title</h1>
                                 <p>Description</p>
                             </div>
                         </div>
-                        <div style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
+                        <div className="l-g3-div" style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
                             <div className="l-g3-overlay">
                                 <h1>Title</h1>
                                 <p>Description</p>
                             </div>
                         </div>
-                        <div style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
+                        <div className="l-g3-div" style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
                             <div className="l-g3-overlay">
                                 <h1>Title</h1>
                                 <p>Description</p>
                             </div>
                         </div>
-                        <div style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
+                        <div className="l-g3-div" style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
                             <div className="l-g3-overlay">
                                 <h1>Title</h1>
                                 <p>Description</p>
                             </div>
                         </div>
-                        <div style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
+                        <div className="l-g3-div" style={{background: "url(https://eevents.s3.amazonaws.com/images/og/concert.jpg) center center no-repeat", backgroundSize: "cover"}}>
                             <div className="l-g3-overlay">
                                 <h1>Title</h1>
                                 <p>Description</p>
@@ -66,14 +73,14 @@ export default class Gigs extends React.Component {
                 </div>
 
                 <div className="footer">
-                    <img src="http://enroutedigitallab.com/html/beats/images/home/logo2.png"/>
+                    <img src={require("../assets/logo.png")}/>
                     <ul>
-                        <li>Home</li>
-                        <li>Music</li>
-                        <li>Videos</li>
-                        <li>Photos</li>
-                        <li>Gigs</li>
-                        <li>Contact</li>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/videos">Videos</NavLink></li>
+                        <li><NavLink to="/pictures">Pictures</NavLink></li>
+                        <li><NavLink to="/gigs">Gigs</NavLink></li>
+                        <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                 </div>
             </div>

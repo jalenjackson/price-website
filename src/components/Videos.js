@@ -17,11 +17,16 @@ export default class Videos extends React.Component {
                             transitionLeaveTimeout={4000}
                             transitionAppear={true}
                         >
-                            <div style={{background:"linear-gradient(rgba(0,0,200,0.2), rgba(100,0,100,0.9)), url(http://entertainmentvoice.com/wp-content/uploads/2016/01/KidCudi2016_Feature.jpg) center center no-repeat", backgroundSize:"cover"}} className="video-header">
+                            <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url(http://entertainmentvoice.com/wp-content/uploads/2016/01/KidCudi2016_Feature.jpg) center center no-repeat", backgroundSize:"cover"}} className="video-header">
                                 <h1>Videos</h1>
 
                             </div>
                         </ReactCSSTransitionGroup>
+                        <div style={{zIndex: 999999999999999999999999}} className="loader-container about-loader">
+
+
+
+                        </div>
                         <div id="columns">
 
 
@@ -110,7 +115,7 @@ export default class Videos extends React.Component {
                         </div>
                     </div>
                 <div className="footer">
-                    <img src="http://enroutedigitallab.com/html/beats/images/home/logo2.png"/>
+                    <img src={require("../assets/logo.png")}/>
                     <ul>
                         <li>Home</li>
                         <li>Music</li>
