@@ -401,6 +401,14 @@ div#columns figure img {
     display: block;
   }
 
+  .video-player {
+    position: relative !important;
+    top:0;
+    left:0;
+    width:100px !important;
+    height: 100% !important;
+  }
+
   .footer ul li {
     float: left!important;
     text-align: left;
@@ -524,6 +532,30 @@ div#columns figure img {
   animation: opac 2s cubic-bezier(0.165,0.84,0.44,1);
 
 
+}
+
+
+.video-enter, .video-appear {
+  opacity: 1;
+  animation: change-height 2s cubic-bezier(0.165,0.84,0.44,1) forwards ;
+
+}
+
+.video-leave {
+  opacity:1;
+  animation: change-height 2s cubic-bezier(0.165,0.84,0.44,1);
+
+
+}
+
+
+@keyframes change-height {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 @keyframes opac {

@@ -237,3 +237,40 @@ background: none !important;
     margin-right: -100%;
     clear: none;
 }
+
+.watch-container {
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+
+}
+.video-player {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 90%;
+    width: auto;
+    height: 100%;
+    z-index: 999;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-image {
+    font-size: 100px;
+    color:brown;
+    margin-top:100px;
+    text-align: center;
+    position: fixed;
+    top:-20px;
+    right:37px !important;
+    z-index: 999999999999999;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}

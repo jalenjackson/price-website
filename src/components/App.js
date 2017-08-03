@@ -7,6 +7,7 @@ import Pictures from './Pictures'
 import Contact from './Contact'
 import Gigs from './Gigs'
 import About from './About'
+import Watch from './Watch'
 
 
 import {Route, Router, BrowserRouter, withRouter } from 'react-router-dom'
@@ -20,6 +21,7 @@ export default class App extends Component {
             <Mainnav/>
               <Route exact path='/gigs' component={Gigs} />
               <Route exact path='/about' component={About} />
+            <Route exact path='/watch' component={Watch} />
 
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/' component={Home} />

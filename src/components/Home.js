@@ -68,7 +68,7 @@ export default class Home extends React.Component {
 
                                 <div className="our-video">
                                     <h1 className="vvv">Check Us <br/> <span className="video-text">Out</span></h1>
-                                    <img className="video-img" src="https://maxcdn.icons8.com/Share/icon/Media_Controls//play1600.png"/>
+                                    <NavLink to="/watch"><img className="video-img" src="https://maxcdn.icons8.com/Share/icon/Media_Controls//play1600.png"/></NavLink>
 
                                     <div className="video-overlay">
 

@@ -54,9 +54,7 @@ $(window).scroll(function(){
 });
 
 $(window).on("load", function(){
-    $(".our-video").click(function(){
-        alert("y");
-    });
+
 
     $(".fa-bars").click(function(){
         $(".dropdown").addClass("add-height");
