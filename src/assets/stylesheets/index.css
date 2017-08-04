@@ -401,13 +401,7 @@ div#columns figure img {
     display: block;
   }
 
-  .video-player {
-    position: relative !important;
-    top:0;
-    left:0;
-    width:100px !important;
-    height: 100% !important;
-  }
+
 
   .footer ul li {
     float: left!important;
@@ -476,7 +470,7 @@ div#columns figure img {
   }
 
   .design-word {
-    font-size: 55px !important;
+    font-size: 40px !important;
   }
 
   .main-nav {

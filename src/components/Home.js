@@ -20,7 +20,7 @@ export default class Home extends React.Component {
                                     <div className="change1-overlay"></div>
                                     <div className="left-text-container">
 
-                                        <h1 className="parallax responsive-h1">Calvin <br/> <span className="design-word">Productions</span> <br/> </h1>
+                                        <h1 className="parallax responsive-h1">Calvin <br/> <span className="design-word">PRODUCTIONS</span> <br/> </h1>
 
                                     </div>
                                 </div>
