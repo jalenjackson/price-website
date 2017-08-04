@@ -22,7 +22,7 @@ export default class Mainnav extends React.Component {
                         </div>
                         <i style={{fontSize: "30px"}} className="fa fa-bars" aria-hidden="true"/>
 
-                        <img src={require("../assets/logo.png")}/>
+                        <NavLink to="/"><img src={require("../assets/logo.png")}/></NavLink>
                         <ul style={{marginTop: "12px"}}>
                             <li><NavLink exact activeClassName="nav-active" to="/">Home</NavLink></li>
                             <li><NavLink activeClassName="nav-active" to="/about">About</NavLink></li>
