@@ -86,3 +86,19 @@
     outline: 2px dotted #55d7dc;
 }
 
+
+.contact-form {
+    margin-top: 100px;
+    display: block;
+}
+
+.contact-form input, textarea {
+    display: block;
+    margin: 0 auto;
+    background:rgb(240,240,255);
+}
+
+.contact-form p {
+    text-align: center;
+}
+
