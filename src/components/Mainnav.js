@@ -15,6 +15,7 @@ export default class Mainnav extends React.Component {
                             <i className="fa fa-times" aria-hidden="true"></i>
                             <h2><NavLink style={{color:"black"}} to="/">Home</NavLink></h2>
                             <h2><NavLink style={{color:"black"}}  to="/about">About</NavLink></h2>
+                            <h2><NavLink style={{color:"black"}}  to="/videos">Videos</NavLink></h2>
                             <h2><a style={{color:"black"}}  href="contact.html">Booking</a></h2>
 
                         </div>
@@ -24,6 +25,8 @@ export default class Mainnav extends React.Component {
                         <ul style={{marginTop: "12px"}}>
                             <li><NavLink exact activeClassName="nav-active" to="/">Home</NavLink></li>
                             <li><NavLink activeClassName="nav-active" to="/about">About</NavLink></li>
+                            <li><NavLink activeClassName="nav-active" to="/videos">Videos</NavLink></li>
+
                             <li><a href="contact.html">Booking</a></li>
                         </ul>
                     </div>

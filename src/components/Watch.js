@@ -20,7 +20,7 @@ export default class Watch extends React.Component {
                     <div className="watch-container">
 
                         <video className="video-player" autoPlay={true} controls={true}>
-                            <source src={require("../assets/drums.mov")} type="video/mp4"/>
+                            <source src={require()} type="video/mp4"/>
                         </video>
                     </div>
 

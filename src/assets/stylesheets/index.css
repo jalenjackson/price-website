@@ -16,10 +16,9 @@ html, body {
   height:700px !important;
   position: relative;
   margin-top: -50px;
-  background:url(https://i0.wp.com/rebelmusic.info/wp-content/uploads/2014/09/o-THOM-YORKE-facebook.jpg?fit=2000%2C1000) 0px 0px;
+  background:url(../banner.JPG) 0px 0px no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 200px 0px;
   overflow: hidden;
   transition: all 500ms ease-in-out;
 }
@@ -451,7 +450,7 @@ div#columns figure img {
   }
 
   .change1 {
-    background: url(http://www.a2-foto.com/WP/wp-content/uploads/2016/09/A2-Foto-Featured-14-500x1000.jpg) center center;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu4WWm7hJFRkf2CyFHnmLfneaKdd6GuYFJ2SnLUI8wr-0Q92_t) center center;
     background-size: cover;
     background-position: 0 -900px;
   }
