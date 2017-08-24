@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
 import '../assets/stylesheets/videos.css'
+import { NavLink } from 'react-router-dom'
 
 export default class Videos extends React.Component {
 
@@ -117,12 +118,10 @@ export default class Videos extends React.Component {
                 <div className="footer">
                     <img src={require("../assets/logo.png")}/>
                     <ul>
-                        <li>Home</li>
-                        <li>Music</li>
-                        <li>Videos</li>
-                        <li>Photos</li>
-                        <li>Gigs</li>
-                        <li>Contact</li>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/videos">Videos</NavLink></li>
+                        <li><a href="contact.html">Booking</a></li>
                     </ul>
                 </div>
 
