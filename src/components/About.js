@@ -44,9 +44,7 @@ export default class About extends React.Component {
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/about">About</NavLink></li>
                         <li><NavLink to="/videos">Videos</NavLink></li>
-                        <li><NavLink to="/pictures">Pictures</NavLink></li>
-                        <li><NavLink to="/gigs">Gigs</NavLink></li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
+                        <li><a href="contact.html">Booking</a></li>
                     </ul>
                 </div>
             </div>
