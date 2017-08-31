@@ -18,12 +18,12 @@ export default class Videos extends React.Component {
                             transitionLeaveTimeout={4000}
                             transitionAppear={true}
                         >
-                            <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url(http://entertainmentvoice.com/wp-content/uploads/2016/01/KidCudi2016_Feature.jpg) center center no-repeat", backgroundSize:"cover"}} className="video-header">
-                                <h1>Videos</h1>
+                            <div style={{background:"linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url(https://www.octaneseating.com/wp-content/uploads/2017/04/old-movie-headerV2.jpg) center center no-repeat", backgroundSize:"cover"}} className="video-header">
+                                <h1>Check Us Out</h1>
 
                             </div>
                         </ReactCSSTransitionGroup>
-                        <div style={{zIndex: 999999999999999999999999}} className="loader-container about-loader">
+                        <div  style={{zIndex: 999999999999999999999999}} className="loader-container about-loader">
 
 
 
@@ -32,87 +32,42 @@ export default class Videos extends React.Component {
 
 
                             <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/CHKtCes8fFk" frameborder="0" allowfullscreen></iframe>
                                 <p>
-                                    Nullam eget lectus augue. Donec eu sem sit amet ligula
-                                    faucibus suscipit. Suspendisse rutrum turpis quis nunc
-                                    convallis quis aliquam mauris suscipit.
+                                     Drum performance by Maurice.
+                                </p>
+                            </div>
+                            <div className="pin">
+                                <iframe src="https://www.youtube.com/embed/M8ph_7XFNX8" frameborder="0" allowfullscreen></iframe>
+                                <p>
+                                    Drum performance by Maurice
+                                </p>
+                            </div>
+                            <div className="pin">
+                                <iframe src="https://www.youtube.com/embed/Z8PSvtto3Ig" frameborder="0" allowfullscreen></iframe>
+                                <p>
+                                    Rap performance.
                                 </p>
                             </div>
 
-                            <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
-                                <p>
-                                    Donec a fermentum nisi. Integer dolor est, commodo ut
-                                    sagittis vitae, egestas at augue.
-                                </p>
-                            </div>
+
 
                             <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/jhO8-tNxzg4" frameborder="0" allowfullscreen></iframe>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Sed feugiat consectetur pellentesque. Nam ac elit risus,
-                                    ac blandit dui. Duis rutrum porta tortor ut convallis.
-                                    Duis rutrum porta tortor ut convallis.
-                                </p>
-                            </div>
-
-                            <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
-                                <p>
-                                    Nullam eget lectus augue. Donec eu sem sit amet ligula
-                                    faucibus suscipit. Suspendisse rutrum turpis quis nunc
-                                    convallis quis aliquam mauris suscipit.
-                                    Duis rutrum porta tortor ut convallis.
+                                    Singing performance.
                                 </p>
                             </div>
 
 
                             <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/1LPs9nhFYEM" frameborder="0" allowfullscreen></iframe>
                                 <p>
-                                    Donec a fermentum nisi. Integer dolor est, commodo ut
-                                    sagittis vitae, egestas at augue. Suspendisse id nulla
-                                    ac urna vestibulum mattis.
+                                    Electric Drum performance by Maurice.
                                 </p>
                             </div>
 
-                            <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Sed feugiat consectetur pellentesque. Nam ac elit risus,
-                                    ac blandit dui. Duis rutrum porta tortor ut convallis.
-                                </p>
-                            </div>
 
-                            <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
-                                <p>
-                                    Donec a fermentum nisi. Integer dolor est, commodo ut
-                                    sagittis vitae, egestas at augue. Suspendisse id nulla
-                                    ac urna vestibulum mattis.
-                                </p>
-                            </div>
-
-                            <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
-                                <p>
-                                    Donec a fermentum nisi. Integer dolor est, commodo ut
-                                    sagittis vitae, egestas at augue. Suspendisse id nulla
-                                    ac urna vestibulum mattis.
-                                </p>
-                            </div>
-
-                            <div className="pin">
-                                <iframe src="https://www.youtube.com/embed/ytBAjunbzgc" frameborder="0" allowfullscreen></iframe>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Sed feugiat consectetur pellentesque. Nam ac elit risus,
-                                    ac blandit dui. Duis rutrum porta tortor ut convallis.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 <div className="footer">

@@ -22,18 +22,14 @@ export default class About extends React.Component {
 
 
                     </div>
-                    <div className="about-image">
-                        <h1>About</h1>
+                    <div  className="about-image video-img">
+                        <h1 style={{color: "white"}}>About</h1>
                     </div>
 
-                    <h2>Lorem Ipsum</h2>
+                    <h2>We are Calvin Productions</h2>
 
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Thank you for visiting Calvin Productions! We are an experienced team of professional musicians waiting to play at your newest event. Book one of our talented musicians to play at your event in the booking section of the website. Simply fill out the form, and we will get back to you regarding the next steps. Whether you need a drummer for a church gathering or a singer for a wedding, we have you covered!
                     </p>
 
 

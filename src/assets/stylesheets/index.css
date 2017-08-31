@@ -732,3 +732,9 @@ a:hover, a:active { text-decoration: none; color:white }
   font-weight:bold;
   border-bottom: 2px solid black;
 }
+
+
+.video-img {
+  background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url(../guitar.jpg) center center no-repeat;
+  background-size:cover;
+}
